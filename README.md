@@ -1,4 +1,4 @@
-# Build-a-simple-calculator
+# Coding
 My first repository.
 <br>
 Author-Anup chauhan
