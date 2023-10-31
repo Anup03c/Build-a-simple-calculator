@@ -1,0 +1,22 @@
+#Function Definitions:
+#● Define functions for addition, subtraction, multiplication, and division.
+
+num1=int(input("enter first number:"))
+num2=int(input("enter second number:"))
+
+print("enter operation")
+choice=input("enter any of there char for specific operation +,-,*,/:")
+
+result=0
+if choice=='+':
+    result = num1+num2
+elif choice =='-':
+    result = num1-num2
+elif choice=='*':
+    result = num1*num2
+elif choice=='/':
+    result = num1/num2
+else:
+    print("Input character is not recognized!")
+    
+print(num1, choice , num2, ":", result)    
